@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>POT: Python Optimal Transport</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../static/img/favicon.png" type="image/x-icon" />
+    <meta name="description" content="">
+    <link rel="stylesheet" href="../static/dist/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/main.min.css">
+</head>
+
+<body>
+    <div class="loader"></div>
+    <header id="header">
+        <div class="navbar navbar-light box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand" href="" id="header-logo">
+                    <img src="../static/img/favicon.png" style="width: 25px; vertical-align: middle;" />
+                    POT: Python Optimal Transport
+                </a>
+            </div>
+        </div>
+    </header>
+    <main id="main" role="main">
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="collection-heading">
+                        <span>Regularized OT with generic solver</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plot_url_A }}" alt="Card image cap" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plot_url_B }}" alt="Card image cap" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plot_url_C }}" alt="Card image cap" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plot_url_D }}" alt="Card image cap" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="collection-heading">
+                        <span>POT backend</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrl_A }}" alt="Card image cap" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrl_B }}" alt="Card image cap" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrl_C }}" alt="Card image cap" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrl_D }}" alt="Card image cap" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="collection-heading">
+                        <span>Wasserstein barycenters</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrlA }}" alt="Card image cap" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrlB }}" alt="Card image cap" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="collection-heading">
+                        <span>Domain adaptation</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrlS }}" alt="Card image cap" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-4 box-shadow">
+                            <img style="aspect-ratio:4/3;" class="card-img-top"
+                                src="data:image/png;base64, {{ plotUrlTS }}" alt="Card image cap" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn btn-primary scrollUp">
+            <i class="fa fa-arrow-circle-o-up"></i>
+        </a>
+    </main>
+    <footer id="footer">
+        <p class="copyright">
+            <img src="../static/img/favicon.png" style="width: 20px;" />
+            authorized by Mobina Saffari
+        </p>
+    </footer>
+    <script src="../static/dist/jquery/jquery.min.js"></script>
+    <script src="../static/dist/popper/popper.min.js" integrity=""></script>
+    <script src="../static/dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/js/main.min.js"></script>
+</body>
+
+</html>
